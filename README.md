@@ -38,7 +38,7 @@ php artisan serve
 
 
 ```bash
-php artisan migrate -seed 
+php artisan migrate --seed 
 ```
 
 ## Authenticate an user
