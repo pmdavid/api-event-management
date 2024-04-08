@@ -11,7 +11,7 @@ Este repositorio consta de un API, creada en Laravel 11, que incluye un sistema 
 - Events
 - Attendees
 
-### Colleción de Postman
+### Colección de Postman
 
 [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/34091386-d0ad8730-9c55-4f9f-bf4b-8048df4d8e5d?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D34091386-d0ad8730-9c55-4f9f-bf4b-8048df4d8e5d%26entityType%3Dcollection%26workspaceId%3Dca38931c-3f1f-4d1a-b0be-013ea7f02ea7)
 
