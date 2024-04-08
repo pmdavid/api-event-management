@@ -61,5 +61,6 @@ In this repository you will see the following implementations:
 - **Seeders** using Factories
 - Laravel **notifications** for email notifications to users with upcoming events
 - Use of **Traits**
+- Form fields **validations**
 
 

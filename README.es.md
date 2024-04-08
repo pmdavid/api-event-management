@@ -59,6 +59,7 @@ En este repositorio podrás ver estas implementaciones.
 - **Seeders utilizando factories** para llenar las tablas con datos de ejemplo.
 - **Notificaciones** de Laravel para notificar por email a los usuarios que tengan un evento próximo
 - Uso de **Traits**
+- Validación de los campos recibidos en las request
 
 
 
