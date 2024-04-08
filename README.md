@@ -13,19 +13,24 @@ This repository consists of an API, created in Laravel 11, that manages events a
 
 ## Get started
 
-1. Launch Docker to use the database container
+1. Run composer install
+
+```bash
+composer install
+```
+2. Launch Docker to use the database MySQL container
 
 ```bash
 docker compose up -d
 ```
 
-2. Launch Laravel
+3. Launch local web environment
 
 ```bash
 php artisan serve
 ```
 
-3. Run migrations and seeders to populate the tables with sample data.
+4. Run migrations and seeders to populate the tables with sample data.
 
 
 ```bash

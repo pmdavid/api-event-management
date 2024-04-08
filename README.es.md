@@ -17,19 +17,25 @@ Este repositorio consta de un API, creada en Laravel 11, que incluye un sistema 
 
 ## Levantar el entorno
 
-1. Levantamos Docker para  usar el contenedor de BBDD con MySQL (La configuracion se puede ver en docker-compose.yml)
+1. Run composer install
+
+```bash
+composer install
+```
+
+2. Levantamos Docker para  usar el contenedor de BBDD con MySQL (La configuracion se puede ver en docker-compose.yml)
 
 ```bash
 docker compose up -d
 ```
 
-2. Levantamos Laravel
+3. Levantamos servidor web en local
 
 ```bash
 php artisan serve
 ```
 
-3. Lanzamos las migraciones y seeders para rellenar las tablas con datos de ejemplo.
+4. Lanzamos las migraciones y seeders para rellenar las tablas con datos de ejemplo.
 
 ```bash
 php artisan migrate -seed 
