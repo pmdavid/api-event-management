@@ -11,6 +11,10 @@ This repository consists of an API, created in Laravel 11, that manages events a
 - Events
 - Attendees
 
+### Postman collection
+
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/34091386-d0ad8730-9c55-4f9f-bf4b-8048df4d8e5d?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D34091386-d0ad8730-9c55-4f9f-bf4b-8048df4d8e5d%26entityType%3Dcollection%26workspaceId%3Dca38931c-3f1f-4d1a-b0be-013ea7f02ea7)
+
 ## Get started
 
 1. Run composer install
@@ -37,11 +41,13 @@ php artisan serve
 php artisan migrate -seed 
 ```
 
-## Login with an user to obtain the auth token needed to the rest of endpoints
+## Authenticate an user
 
-1. Send the POST request called "Login" in Postman with the email and password fields filled in.
-2. Use as email any existing email in the **Users** database table. Use as password literally the string "**password**" (without quotes).
-3. Obtain the access token in the response to this request. Use this token for the user authentication in the rest of the endpoints (Bearer Token).
+1. **Login**: Send the POST request called "Login" in Postman collection with the email and password fields filled in.
+Use as email any existing email in the **Users** database table. 
+Use as password literally the string "**password**" (without quotes).
+
+2. **Obtain the access token in the response** to this request. Use this token for the user authentication in the rest of the endpoints (Bearer Token).
 
 ## Features explanation
 
