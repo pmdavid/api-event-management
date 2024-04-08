@@ -56,9 +56,9 @@ In this repository you will see the following implementations:
 - Environment **dockerized** and configured to launch a Mysql container.
 - **Event and attendance management | CRUD** through the endpoints that can be seen and used in Postman.
 - **User authentication system** with Sanctum, based on Bearer Token (Login and Logout endpoints)
-- **Authorization** of endpoints with Laravel Policies.
+- **Authorization** in endpoints with Laravel Policies.
 - Endpoints with **pagination and includes**
-- **Seeders** using Factories
+- **Migrations and seeders** using Factories
 - Laravel **notifications** for email notifications to users with upcoming events
 - Use of **Traits**
 - Form fields **validations**
