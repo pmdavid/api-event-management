@@ -41,6 +41,12 @@ php artisan serve
 php artisan migrate -seed 
 ```
 
+## Autenticar un usuario para obtener el auth token necesario para el resto de endpoints
+
+1. Enviar la petición POST llamada "Login" en Postman con los campos email y password rellenados. 
+2. Utilizar como email cualquiera existente en la tabla **Users** de base de datos. Utilizar como contraseña literalmente la cadena "**password**" (sin comillas)
+3. Obtener el token de acceso en la respuesta de dicha peticion. Utilizar este token para la autenticación del usuario en el resto de endpoints (Bearer Token)
+
 ## Explicacion de funcionalidades
 
 En este repositorio podrás ver estas implementaciones.
