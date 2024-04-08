@@ -52,11 +52,11 @@ Utilizar como email cualquiera existente en la tabla **Users** de base de datos.
 En este repositorio podrás ver estas implementaciones.
 
 - Entorno dockerizado y configurado para utilizar contenedor de MySQL.
-- **CRUD | Gestion de los eventos y asistencias** a los mismos a través de los endpoints que se pueden ver y usar en Postman
+- **CRUD | Gestion de los eventos y asistencia** a los mismos a través de los endpoints que se pueden ver y usar en Postman
 - **Autenticación de los usuarios utilizando Sanctum**, basado en Bearer Token.
 - **Autorización de endpoints** con Policies de Laravel
 - Endpoints con **paginación e includes**
-- **Seeders utilizando factories** para llenar las tablas con datos de ejemplo.
+- **Migraciones y seeders utilizando factories** para llenar las tablas con datos de ejemplo.
 - **Notificaciones** de Laravel para notificar por email a los usuarios que tengan un evento próximo
 - Uso de **Traits**
 - Validación de los campos recibidos en las request
