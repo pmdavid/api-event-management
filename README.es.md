@@ -38,7 +38,7 @@ php artisan serve
 4. Lanzamos las migraciones y seeders para rellenar las tablas con datos de ejemplo.
 
 ```bash
-php artisan migrate -seed 
+php artisan migrate --seed 
 ```
 
 ## Autenticar un usuario
