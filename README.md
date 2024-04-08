@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository consists of an API, created in Laravel 11, that manages events and the attendance to them by users. So we have the following resources:
+This repository consists of an API, created in Laravel 11, that manages events and the attendance to them by users. So in this context we have the following resources:
 
 - Users
 - Events
