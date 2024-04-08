@@ -1,7 +1,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/pmdavid/api-events-management/blob/master/README.md)
-[![es](https://img.shields.io/badge/lang-es-red.svg)](https://github.com/pmdavid/api-events-management/blob/master/README.es.md)
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/pmdavid/api-event-management?tab=readme-ov-file)
+[![es](https://img.shields.io/badge/lang-es-red.svg)](https://github.com/pmdavid/api-event-management/blob/main/README.es.md)
 
 ## Overview
 
