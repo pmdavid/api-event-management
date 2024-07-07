@@ -15,6 +15,20 @@ Este repositorio consta de un API, creada en Laravel 11, que incluye un sistema 
 
 [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/34091386-d0ad8730-9c55-4f9f-bf4b-8048df4d8e5d?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D34091386-d0ad8730-9c55-4f9f-bf4b-8048df4d8e5d%26entityType%3Dcollection%26workspaceId%3Dca38931c-3f1f-4d1a-b0be-013ea7f02ea7)
 
+## Explicacion de funcionalidades
+
+En este repositorio podrás ver estas implementaciones:
+
+- Entorno dockerizado y configurado para utilizar contenedor de MySQL.
+- **CRUD | Gestion de los eventos y asistencia** a los mismos a través de los endpoints que se pueden ver y usar en Postman
+- **Autenticación de los usuarios utilizando Sanctum**, basado en Bearer Token.
+- **Autorización de endpoints** con Policies de Laravel
+- Endpoints con **paginación e includes**
+- **Migraciones y seeders utilizando factories** para llenar las tablas con datos de ejemplo.
+- **Notificaciones** de Laravel para notificar por email a los usuarios que tengan un evento próximo
+- Uso de **Traits**
+- Validación de los campos recibidos en las requests
+  
 ## Preparar el entorno
 
 1. Run composer install
@@ -46,20 +60,3 @@ php artisan migrate --seed
 1. **Login**: Enviar la petición POST llamada "Login" en la colección de Postman con los campos email y password rellenados. 
 Utilizar como email cualquiera existente en la tabla **Users** de base de datos. Utilizar como contraseña literalmente la cadena "**password**" (sin comillas)
 2. **Obtener el token de acceso en la respuesta** de dicha peticion. Utilizar este token para la autenticación del usuario en el resto de endpoints (Bearer Token)
-
-## Explicacion de funcionalidades
-
-En este repositorio podrás ver estas implementaciones:
-
-- Entorno dockerizado y configurado para utilizar contenedor de MySQL.
-- **CRUD | Gestion de los eventos y asistencia** a los mismos a través de los endpoints que se pueden ver y usar en Postman
-- **Autenticación de los usuarios utilizando Sanctum**, basado en Bearer Token.
-- **Autorización de endpoints** con Policies de Laravel
-- Endpoints con **paginación e includes**
-- **Migraciones y seeders utilizando factories** para llenar las tablas con datos de ejemplo.
-- **Notificaciones** de Laravel para notificar por email a los usuarios que tengan un evento próximo
-- Uso de **Traits**
-- Validación de los campos recibidos en las requests
-
-
-
